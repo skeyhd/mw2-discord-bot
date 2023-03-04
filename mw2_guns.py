@@ -55,3 +55,88 @@ lachmann_sub = {
     "Rear Grip Tunning 2" : "-0.45\n",
 
 }
+
+kv_broadside = {
+    # Info
+    "Name" : "KV Broadside",
+    "Gun Type" : "Shotgun",
+    "Gun Platform" : "Kastovia",
+    "Tier" : "S\n",
+    
+    # Muzzle
+    "Muzzle" : "Bryson Improved Choke",
+    "Muzzle Tunning 1" : "+0.10",
+    "Muzzle Tunning 2" : "-0.28\n",
+    # Barrel
+    "Barrel" : "ZLR Sport-8",
+    "Barrel Tunning 1" : "-0.37",
+    "Barrel Tunning 2" : "+0.14\n",
+    # Stock
+    "Stock" : "VLK Stockless\n",
+    # Ammunition
+    "Ammo" : "12 Gauge Dragon's Breath",
+    "Ammo Tunning 1" : "+0.54",
+    "Ammo Tunning 2" : "-4.94\n",
+    # Bolt
+    "Bolt" : "Dashbolt 60",
+}
+
+sakin_mg38 = {
+    # Info
+    "Name" : "Sakin MG",
+    "Gun Type" : "LMG",
+    "Gun Platform" : "Sakin MG",
+    "Tier" : "S\n",
+    
+    # Muzzle
+    "Muzzle" : "Kastovia DX90",
+    "Muzzle Tunning 1" : "+0.50",
+    "Muzzle Tunning 2" : "-0.40\n",
+    # Barrel
+    "Barrel" : '20" Bruen Silver Series Barrel',
+    "Barrel Tunning 1" : "+0.50",
+    "Barrel Tunning 2" : "+0.40\n",
+    # Optic
+    "Optic" : "Aim OP-V4",
+    "Optic Tunning 1" : "±0.00",
+    "Optic Tunning 2" : "+1.34\n",
+    # Underbarrel
+    "Underbarrel" : "Cronen WL55",
+    "Underbarrel Tunning 1" : "+0.77",
+    "Underbarrel Tunning 2" : "+0.37\n",
+    # Ammunition
+    "Ammunition" : "7.62 High Velocity",
+    "Ammo Tunning 1" : "-0.70",
+    "Ammo Tunning 2" : "-9.00\n",
+
+}
+
+raal_mg = {
+    # Info
+    "Name" : "Raal MG",
+    "Gun Type" : "LMG",
+    "Gun Platform" : "Raal",
+    "Tier" : "S\n",
+    
+    # Muzzle
+    "Muzzle" : "BVM-338",
+    "Muzzle Tunning 1" : "+0.57",
+    "Muzzle Tunning 2" : "+0.18\n",
+    # Barrel
+    "Barrel" : '21" EXF Rhino Barrel',
+    "Barrel Tunning 1" : "+0.42",
+    "Barrel Tunning 2" : "-0.10\n",
+    # Laser
+    "Laser" : "FSS OLE-V Laser",
+    "Laser Tunning 1" : "+0.40",
+    "Laser Tunning 2" : "+46.06\n",
+    # Optic
+    "Optic" : "Cronen WL55",
+    "Optic Tunning 1" : "-2.03",
+    "Optic Tunning 2" : "-1.65\n",
+    # Ammunition
+    "Ammunition" : ".338 Mag High Velocity",
+    "Ammo Tunning 1" : "-0.70",
+    "Ammo Tunning 2" : "-4.94\n",
+
+}
