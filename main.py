@@ -36,6 +36,3 @@ async def on_message(message):
             
 
 client.run(bot_token)
-
-        #await message.channel.send("{} : {}".format(item,iso_hemlock[item]))
-        
