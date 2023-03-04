@@ -1,1 +1,1 @@
-**MW2 GUN STATS DISCORD BOT** 
+<h1 align="center">Face Mask Detection</h1>
