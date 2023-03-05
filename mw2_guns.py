@@ -368,6 +368,34 @@ chimera = {
     "Rear Grip Tunning 2" : "-0.28\n",
 }
 
+# Basilisk
+basilisk = {
+    # Info
+    "Name" : "Basilisk",
+    "Gun Type" : "Handgun",
+    "Gun Platform" : "Basilisk 500",
+    "Tier" : "A\n",
+    
+    # Barrel
+    "Barrel" : '10.5" FTAC Arrow',
+    "Barrel Tunning 1" : "-0.50",
+    "Barrel Tunning 2" : "+0.37\n",
+    # Laser
+    "Laser" : 'Revo-LSD 7mW',
+    "Laser Tunning 1" : "±0.00",
+    "Laser Tunning 2" : "±0.00\n",
+    # Trigger Action
+    "Trigger Action" : "Markeev R7 Stock",
+    "Trigger Action Tunning 1" : "-0.13",
+    "Trigger Action Tunning 2" : "-0.09\n",
+    # Ammunition
+    "Ammunition" : ".500 Snakeshot",
+    # Rear Grip
+    "Rear Grip" : "SO RO-99 Grip",
+    "Rear Grip Tunning 1" : "±0.00",
+    "Rear Grip Tunning 2" : "-0.45\n",
+}
+
 # Kastov-74U
 kastov_74U = {
     # Info
@@ -380,7 +408,7 @@ kastov_74U = {
     "Barrel" : 'BR209 Barrel',
     "Barrel Tunning 1" : "+0.18",
     "Barrel Tunning 2" : "-0.19\n",
-    # Barrel
+    # Laser
     "Laser" : 'FSS OLE-V Laser',
     "Laser Tunning 1" : "-0.24",
     "Laser Tunning 2" : "-27.97\n",
@@ -395,3 +423,143 @@ kastov_74U = {
     "Rear Grip Tunning 1" : "-0.65",
     "Rear Grip Tunning 2" : "-0.22\n",
 }
+
+# PDSW 528
+pdsw_528 = {
+    # Info
+    "Name" : "PDSW 528",
+    "Gun Type" : "SMG",
+    "Gun Platform" : "Tactique Defense",
+    "Tier" : "A\n",
+    
+    # Muzzle
+    "Muzzle" : 'Forge DX90-F',
+    "Muzzle Tunning 1" : "-0.68",
+    "Muzzle Tunning 2" : "+1.00\n",
+    # Laser
+    "Laser" : 'EXF Solarflare',
+    # Stock
+    "Stock" : "Hollow Extended Stock",
+    "Stock Tunning 1" : "-4.00",
+    "Stock Tunning 2" : "-2.40\n",
+    # Rear Grip
+    "Rear Grip" : "STIP-40 Grip",
+    "Rear Grip Tunning 1" : "+1.00",
+    "Rear Grip Tunning 2" : "-0.45\n",
+    # Comb
+    "Comb" : "TV TACComb",
+    "Comb Tunning 1" : "-0.29",
+    "Comb Tunning 2" : "-0.12\n",
+}
+
+# Rapp H
+rapp_h = {
+    # Info
+    "Name" : "Rapp H",
+    "Gun Type" : "LMG",
+    "Gun Platform" : "Lachmann & Meer",
+    "Tier" : "A\n",
+    
+    # Muzzle
+    "Muzzle" : 'Sakin Tread-40',
+    "Muzzle Tunning 1" : "+0.49",
+    "Muzzle Tunning 2" : "+0.18\n",
+    # Optic
+    "Optic" : 'Aim OP-V4',
+    "Optic Tunning 1" : "-1.45",
+    "Optic Tunning 2" : "-1.65\n",
+    # Underbarrel
+    "Underbarrel" : "Edge-47 Grip",
+    "Underbarrel Tunning 1" : "+0.44",
+    "Underbarrel Tunning 2" : "+0.22\n",
+    # Magazine
+    "Magazine" : "100 Round Mag",
+    # Rear Grip
+    "Rear Grip" : "Lachmann TCG-10",
+    "Rear Grip Tunning 1" : "+0.65",
+    "Rear Grip Tunning 2" : "+0.32\n",
+}
+
+# MCPR-300
+mcpr_300 = {
+    # Info
+    "Name" : "MCPR-300",
+    "Gun Type" : "Sniper",
+    "Gun Platform" : "MRBA",
+    "Tier" : "B\n",
+    
+    # Muzzle
+    "Muzzle" : 'Bruen Agent 90',
+    "Muzzle Tunning 1" : "-1.40",
+    "Muzzle Tunning 2" : "+1.00\n",
+    # Barrel
+    "Barrel" : '22" OMX-456',
+    "Barrel Tunning 1" : "±0.00",
+    "Barrel Tunning 2" : "+0.40\n",
+    # Laser
+    "Laser" : "FSS OLE-V Laser",
+    # Stock
+    "Stock" : "100 Round Mag",
+    "Stock Tunning 1" : "-4.00",
+    "Stock Tunning 2" : "+2.40\n",
+    # Ammunition
+    "Ammunition" : ".300 Mag High Velocity",
+    "Ammo Tunning 1" : "+0.70",
+    "Ammo Tunning 2" : "+9.00\n",
+}
+
+# Fennec 45
+fennec_45 = {
+    # Info
+    "Name" : "Fennec 45",
+    "Gun Type" : "SMG",
+    "Gun Platform" : "Fennec",
+    "Tier" : "B\n",
+    
+    # Muzzle
+    "Muzzle" : 'XTEN RR-40',
+    "Muzzle Tunning 1" : "-0.95",
+    "Muzzle Tunning 2" : "+0.65\n",
+    # Laser
+    "Laser" : 'VLK LZR 7mW',
+    "Laser Tunning 1" : "-0.32",
+    "Laser Tunning 2" : "-39.48\n",
+    # Stock
+    "Stock" : "FTAC Locktight Stock",
+    "Stock Tunning 1" : "-2.71",
+    "Stock Tunning 2" : "-1.70\n",
+    # Magazine
+    "Magazine" : "Fennec Mag 45",
+    # Rear Grip
+    "Rear Grip" : "Fennec Stippled Grip",
+    "Rear Grip Tunning 1" : "-0.42",
+    "Rear Grip Tunning 2" : "-0.28\n",
+}
+
+# Lachmann-762
+lachmann_762 = {
+    # Info
+    "Name" : "Lachmann 762",
+    "Gun Type" : "BR",
+    "Gun Platform" : "Lachmann & Meer",
+    "Tier" : "B\n",
+    
+    # Muzzle
+    "Muzzle" : 'Lockshot KT85',
+    "Muzzle Tunning 1" : "+0.50",
+    "Muzzle Tunning 2" : "+0.27\n",
+    # Barrel
+    "Barrel" : 'Romeo FT 16" Barrel',
+    # Optic
+    "Optic" : "Cronen Mini Pro",
+    "Optic Tunning 1" : "-3.00",
+    "Optic Tunning 2" : "-2.25\n",
+    # Magazine
+    "Ammunition" : "7.62 High Velocity",
+    "Ammo Tunning 1" : "+0.45",
+    "Ammo Tunning 2" : "-7.98\n",
+    # Magazine
+    "Magazine" : "50 Round Drum",
+
+}
+
