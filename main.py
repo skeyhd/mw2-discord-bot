@@ -63,15 +63,18 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    # Donate
+    # Donate Command
     if message.content.startswith("!donate"):
         embed = discord.Embed(
-            title="DONATE",
             description = "BTC address : bc1q2slgd0du9tfhh7yyjzfa02pnxdjunw20ldhurt \nETH address : 0x67350aB07FBd1115FF7E480AddEf6DA97873879b",
-            colour = 000000
+            colour = 0x57F287
         )
 
+        embed.set_author(name = "DONATE", icon_url="https://media.discordapp.net/attachments/1081590091182510220/1081979344978727092/donate.png?width=469&height=469")
+
         await message.channel.send(embed=embed)
+
+
 
     # Iso Hemlock
     if message.content.startswith("!iso hemlock"):
@@ -353,5 +356,3 @@ async def on_message(message):
 
 # Runs bot
 client.run(bot_token)
-
-        
