@@ -1,5 +1,4 @@
 import discord
-import requests
 from bs4 import BeautifulSoup
 import os
 from dotenv import load_dotenv, find_dotenv
