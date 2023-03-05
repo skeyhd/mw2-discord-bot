@@ -50,7 +50,13 @@ async def on_message(message):
 
         embed.add_field(
             name = "A Tier Gun Builds",
-            value = "!taq 56 \n!vaznev-9k \n!m4 \n!rpk \n!signal 50 \n!kastov 762 \n!m13b \n!chimera \n!kastov-74u",
+            value = "!taq 56 \n!vaznev-9k \n!m4 \n!rpk \n!signal 50 \n!kastov 762 \n!m13b \n!chimera \n!basilisk \n!kastov-74u \n!pdsw 528 \n!rapp h",
+            inline = True
+        )
+
+        embed.add_field(
+            name = "B Tier Gun Builds",
+            value = "!mcpr-300 \n!fennec 45 \n!lachmann 762",
             inline = True
         )
 
@@ -88,15 +94,27 @@ async def on_message(message):
         for item in lachmann_sub:
             stats = stats + "{} : {}\n".format(item,lachmann_sub[item])
         
-        await message.channel.send(stats)
-    
+        embed = discord.Embed(
+            title="Lachmann Sub",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
+
     # KV Broadside
     if message.content.startswith("!kv broadside"):
         stats = ""
         for item in kv_broadside:
             stats = stats + "{} : {}\n".format(item,kv_broadside[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="KV Broadside",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
     
     # Sakin MG38
     if message.content.startswith("!sakin mg38"):
@@ -104,7 +122,13 @@ async def on_message(message):
         for item in sakin_mg38:
             stats = stats + "{} : {}\n".format(item,sakin_mg38[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Sakin MG38",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
     
     # Raal MG
     if message.content.startswith("!raal mg"):
@@ -112,7 +136,13 @@ async def on_message(message):
         for item in raal_mg:
             stats = stats + "{} : {}\n".format(item,raal_mg[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Raal MG",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
             
     # TAQ 56
     if message.content.startswith("!taq 56"):
@@ -120,7 +150,13 @@ async def on_message(message):
         for item in taq_56:
             stats = stats + "{} : {}\n".format(item,taq_56[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="TAQ 56",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # Vaznev-9K
     if message.content.startswith("!vaznev-9k"):
@@ -128,7 +164,13 @@ async def on_message(message):
         for item in vaznev_9k:
             stats = stats + "{} : {}\n".format(item,vaznev_9k[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Vaznev 9K",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # M4
     if message.content.startswith("!m4"):
@@ -136,7 +178,13 @@ async def on_message(message):
         for item in m4:
             stats = stats + "{} : {}\n".format(item,m4[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="M4",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # RPK
     if message.content.startswith("!rpk"):
@@ -144,7 +192,13 @@ async def on_message(message):
         for item in rpk:
             stats = stats + "{} : {}\n".format(item,rpk[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="RPK",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # Signal 50
     if message.content.startswith("!signal 50"):
@@ -152,7 +206,13 @@ async def on_message(message):
         for item in signal_50:
             stats = stats + "{} : {}\n".format(item,signal_50[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Signal 50",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # Kastov 762
     if message.content.startswith("!kastov 762"):
@@ -160,7 +220,13 @@ async def on_message(message):
         for item in kastov_762:
             stats = stats + "{} : {}\n".format(item,kastov_762[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Kastov 762",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # M13B
     if message.content.startswith("!m13b"):
@@ -168,7 +234,13 @@ async def on_message(message):
         for item in m13b:
             stats = stats + "{} : {}\n".format(item,m13b[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="M13B",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # Chimera
     if message.content.startswith("!chimera"):
@@ -176,7 +248,27 @@ async def on_message(message):
         for item in chimera:
             stats = stats + "{} : {}\n".format(item,chimera[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Chimera",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
+
+    # Basilisk
+    if message.content.startswith("!basilisk"):
+        stats = ""
+        for item in basilisk:
+            stats = stats + "{} : {}\n".format(item,basilisk[item])
+        
+        embed = discord.Embed(
+            title="Basilisk",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
     # Kastov-74U
     if message.content.startswith("!kastov-74u"):
@@ -184,8 +276,83 @@ async def on_message(message):
         for item in kastov_74U:
             stats = stats + "{} : {}\n".format(item,kastov_74U[item])
         
-        await message.channel.send(stats)
+        embed = discord.Embed(
+            title="Kastov-74u",
+            description=stats,
+            colour = 000000
+        )
 
+        await message.channel.send(embed=embed)
+
+    # PDSW 528
+    if message.content.startswith("!pdsw 528"):
+        stats = ""
+        for item in pdsw_528:
+            stats = stats + "{} : {}\n".format(item,pdsw_528[item])
+        
+        embed = discord.Embed(
+            title="PDSW 528",
+            description=stats,
+            colour = 000000
+        )
+
+    # Rapp H
+    if message.content.startswith("!rapp h"):
+        stats = ""
+        for item in rapp_h:
+            stats = stats + "{} : {}\n".format(item,rapp_h[item])
+        
+        embed = discord.Embed(
+            title="Rapp H",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
+
+    # MCPR-300
+    if message.content.startswith("!mcpr-300"):
+        stats = ""
+        for item in mcpr_300:
+            stats = stats + "{} : {}\n".format(item,mcpr_300[item])
+        
+        embed = discord.Embed(
+            title="MCPR-300",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
+
+    # Fennec 45
+    if message.content.startswith("!fennec 45"):
+        stats = ""
+        for item in fennec_45:
+            stats = stats + "{} : {}\n".format(item,fennec_45[item])
+        
+        embed = discord.Embed(
+            title="Fennec 45",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
+
+    # Lachmann-762
+    if message.content.startswith("!lachmann 762"):
+        stats = ""
+        for item in lachmann_762:
+            stats = stats + "{} : {}\n".format(item,lachmann_762[item])
+        
+        embed = discord.Embed(
+            title="Lachmann 762",
+            description=stats,
+            colour = 000000
+        )
+
+        await message.channel.send(embed=embed)
 
 # Runs bot
 client.run(bot_token)
+
+        
